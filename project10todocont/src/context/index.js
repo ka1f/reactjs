@@ -1,1 +1,1 @@
-export {TodoContext, Todoprovider, useTodo} from  "./TodoContext.js"
+export {TodoContext, TodoProvider, useTodo} from "./TodoContext"
