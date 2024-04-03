@@ -28,8 +28,7 @@ function App() {
         completed: !prevTodo.completed } : prevTodo))
   }
 
-  useEffect(() => {
-    const todos = JSON.parse(localStorage.getItem("todos"))
+  useEffect(() => { 
 
     if (todos && todos.length > 0) {
       setTodos(todos)
